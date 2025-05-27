@@ -1,0 +1,240 @@
+<!-- Bootstrap 5 Exercises - Solutions Overview -->
+
+<!-- Exercise 1.1: Link Bootstrap 5 via CDN -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap CDN</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="text-center text-primary mt-5">Bootstrap 5 CDN Setup</h1>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<!-- Exercise 1.2: Use Downloaded Bootstrap -->
+<!-- Folder structure: /css/bootstrap.min.css and /js/bootstrap.bundle.min.js -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- Exercise 2.1: Structure -->
+<!-- CSS: Styling -->
+<!-- JS: Interactivity (like dropdowns, modals) -->
+<!-- Icons: SVG icon pack -->
+
+<!-- Exercise 2.2: Include JS Plugin -->
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- Exercise 3.1: Responsive Grid -->
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-4">Column 1</div>
+    <div class="col-12 col-sm-6 col-md-4">Column 2</div>
+    <div class="col-12 col-sm-6 col-md-4">Column 3</div>
+  </div>
+</div>
+
+<!-- Exercise 3.2: Use container, row, col- classes -->
+<div class="container">
+  <div class="row">
+    <div class="col">A</div>
+    <div class="col">B</div>
+    <div class="col">C</div>
+  </div>
+</div>
+
+<!-- Exercise 4.1: Sidebar and Content Area -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 bg-light">Sidebar</div>
+    <div class="col-md-9">Content Area</div>
+  </div>
+</div>
+
+<!-- Exercise 4.2: Four Column Layout -->
+<div class="row">
+  <div class="col-sm-3">1</div>
+  <div class="col-sm-3">2</div>
+  <div class="col-sm-3">3</div>
+  <div class="col-sm-3">4</div>
+</div>
+
+<!-- Exercise 5.1: Centering Content -->
+<div class="row justify-content-center align-items-center" style="height: 200px;">
+  <div class="col-6 text-center">Centered Content</div>
+</div>
+
+<!-- Exercise 5.2: Reorder Columns -->
+<div class="row">
+  <div class="col-md-6 order-md-2">Second</div>
+  <div class="col-md-6 order-md-1">First</div>
+</div>
+
+<!-- Exercise 7.1: Responsive Navbar -->
+<div class="d-flex flex-column flex-md-row justify-content-between">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</div>
+
+<!-- Exercise 7.2: Card Layout -->
+<div class="card d-flex flex-row justify-content-between align-items-center p-3">
+  <div>Content</div>
+  <button class="btn btn-primary">Action</button>
+</div>
+
+<!-- Exercise 8.1: Registration Form -->
+<form>
+  <input type="text" class="form-control mb-2" placeholder="Name">
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox">
+    <label class="form-check-label">Agree</label>
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text">@</span>
+    <input type="text" class="form-control" placeholder="Username">
+  </div>
+</form>
+
+<!-- Exercise 8.2: Floating Login Form -->
+<div class="form-floating mb-3">
+  <input type="email" class="form-control" placeholder="Email">
+  <label>Email address</label>
+</div>
+
+<!-- Exercise 9.1: Contextual Buttons -->
+<button class="btn btn-primary">Primary</button>
+<button class="btn btn-outline-secondary">Secondary</button>
+
+<!-- Exercise 9.2: Button Group -->
+<div class="btn-group">
+  <input type="checkbox" class="btn-check" id="btn-check-1">
+  <label class="btn btn-outline-primary" for="btn-check-1">Toggle</label>
+</div>
+
+<!-- Exercise 10.1: Responsive Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Logo</a>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+    </ul>
+    <form class="d-flex ms-auto">
+      <input class="form-control" type="search" placeholder="Search">
+    </form>
+  </div>
+</nav>
+
+<!-- Exercise 10.2: Nav Tabs -->
+<ul class="nav nav-tabs">
+  <li class="nav-item"><a class="nav-link active" href="#">Tab 1</a></li>
+</ul>
+
+<!-- Exercise 11.1: Profile Card -->
+<div class="card" style="width: 18rem;">
+  <img src="profile.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">John Doe</h5>
+    <p class="card-text">Web Developer</p>
+  </div>
+</div>
+
+<!-- Exercise 11.2: Media Object -->
+<div class="d-flex">
+  <img src="image.jpg" class="me-3" style="width: 64px;">
+  <div>
+    <h5>Media Heading</h5>
+    <p>Some content here.</p>
+  </div>
+</div>
+
+<!-- Exercise 12.1: Spacing Utilities -->
+<div class="m-3 p-2">Spacing Example</div>
+
+<!-- Exercise 12.2: Pricing Section -->
+<div class="container py-5">
+  <div class="row">
+    <div class="col">Basic</div>
+    <div class="col">Pro</div>
+  </div>
+</div>
+
+<!-- Exercise 13.1: Contextual Backgrounds -->
+<div class="bg-primary text-white p-3">Primary Box</div>
+
+<!-- Exercise 13.2: Gradient Background -->
+<div class="bg-dark bg-gradient text-white p-3">Gradient Box</div>
+
+<!-- Exercise 14.1: Display Utilities -->
+<div class="d-none d-md-block">Visible on md+</div>
+<div class="d-lg-flex">Visible on lg+</div>
+
+<!-- Exercise 14.2: Responsive Sidebar -->
+<div class="d-none d-md-block col-md-3">Sidebar</div>
+
+<!-- Exercise 15.1: Borders and Rounding -->
+<img src="img.jpg" class="border border-primary border-3 rounded-circle">
+
+<!-- Exercise 15.2: Shadows and Rounded Pill -->
+<div class="card shadow-lg rounded-pill">
+  <div class="card-body">Styled Card</div>
+</div>
+
+<!-- Exercise 16.1: Fixed Footer -->
+<footer class="position-fixed bottom-0 w-100 bg-light text-center">Fixed Footer</footer>
+
+<!-- Exercise 16.2: Badge Over Image -->
+<div class="position-relative">
+  <img src="image.jpg" class="img-fluid">
+  <span class="position-absolute top-0 start-100 translate-middle badge bg-danger">New</span>
+</div>
+
+<!-- Exercise 17.1: Social Media Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<footer>
+  <i class="bi bi-facebook"></i>
+  <i class="bi bi-twitter"></i>
+</footer>
+
+<!-- Exercise 17.2: Icon Buttons -->
+<button class="btn btn-primary"><i class="bi bi-house"></i></button>
+
+<!-- Exercise 18.1: Modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch</button>
+<div class="modal fade" id="exampleModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">Modal body</div>
+    </div>
+  </div>
+</div>
+
+<!-- Exercise 18.2: Accordion -->
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">This is the first item's body.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Exercise 19.1: Setup Sass -->
+<!-- Use npm: npm install bootstrap -->
+<!-- Import SCSS: @import "bootstrap/scss/bootstrap"; -->
+
+<!-- Exercise 19.2: Customize Bootstrap with Sass -->
+// _variables.scss
+$primary: #ff5733;
+$border-radius: 1rem;
